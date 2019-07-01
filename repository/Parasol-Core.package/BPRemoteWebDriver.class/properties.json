@@ -1,8 +1,8 @@
 {
 	"commentStamp" : "haerle 8/19/2014 14:46",
 	"super" : "BPObject",
-	"category" : "Parasol-Core",
 	"classinstvars" : [ ],
+	"category" : "Parasol-Core",
 	"pools" : [ ],
 	"classvars" : [
 		"ServerHost",
@@ -10,6 +10,7 @@
 	],
 	"instvars" : [
 		"capabilities",
+		"oldExceptions",
 		"exceptions",
 		"sessionID"
 	],
